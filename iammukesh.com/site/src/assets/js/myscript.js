@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
-    $('.carousel.carousel-slider').carousel({
-        fullWidth: true
+    $('.carousel').carousel({
+        fullWidth: true,
+        indicators: true
     });
     var typed = new Typed("#typed", {
         // Waits 1000ms after typing "First"
@@ -12,5 +13,8 @@ $(document).ready(function () {
         startSpeed: 100,
         loop: true,
     });
+    $('.preloader-bg-wrapper')
+		.delay(1700)
+		.fadeOut();
 
 });
