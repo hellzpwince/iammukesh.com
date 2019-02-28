@@ -1,1 +1,153 @@
 /* You can add global styles to this file, and also import other style files */
+.sidebar{
+    display: none;
+    padding:0%;
+    background:#232135;
+    width: 80px;
+    -webkit-box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+      box-shadow: 2px 0px 4px 0px rgba(0,0,0,0.75);
+}
+.main-menu-btn{
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    right:10px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.page-content{
+    background:#1D1B2B;
+    color:white;
+}
+section.about,section.skills,section.videos,section.testimonials,section.projects{
+    padding: 70px 0px 70px 0px;
+}
+
+section.about{
+    background: #1A1827;
+}
+section.about .social-links{
+    list-style: none;
+    list-style-type: none;
+}
+section.about .social-links li{
+    list-style-type: none;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s ease-in all;
+}
+
+.primary-color{
+    background: #B0193F;
+    border-color: #B0193F;
+}
+.primary-color:hover{
+    background: rgb(150, 22, 54);
+    border-color: rgb(150, 22, 54);
+}
+section.about .social-links li .fa-facebook-f:hover{
+    color:#3b5998;
+}
+section.about .social-links li .fa-at:hover{
+    color:#34a853;
+}
+section.about .social-links li .fa-youtube:hover{
+    color:#ff0000;
+}
+section.about .social-links li .fa-git:hover{
+    color:#4078c0;
+}
+section.about .social-links li .fa-twitter:hover{
+    color:#1da1f2;
+}
+section.about .social-links li .fa-instagram:hover{
+    color:#e1306c;
+}
+.about-title,#typed{
+    padding: 5px;
+    font-family: 'Fjalla One', sans-serif;
+font-weight: 400;
+font-size: 30px;
+color:#F9B960;
+}
+.section-title{
+    display: inline-block;
+    background:#F9B960;
+    padding: 6px 12px;
+    color:black;
+    margin-bottom: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Skills Section */
+ul.skills li{
+    transition: .2s ease-in all;
+    text-align: center;
+list-style-type: none;
+width: 48% !important;
+padding: 10px 20px !important;
+border: #15131F 2px dashed;
+margin: 5px;
+border-radius: 10px;
+}
+ul.skills li:nth-child(odd):hover{
+    border-color: #F9B960;
+transform: translateX(-10px) scale(1.03);
+}
+ul.skills li:nth-child(even):hover{
+    border-color: #F9B960;
+    transform: translateX(10px) scale(1.03);
+    }
+section.skills .skill-heading{
+    display: inline-block;
+    margin-bottom: 20px;
+    color:rgb(48, 44, 71);
+}
+    /*  */
+
+
+    /* Project Section */
+    section.projects .card{
+        cursor: pointer;
+        transition: .2s ease-out all;
+    }
+    section.projects .card .card-title{
+        text-shadow: 1px 1px #1a1a1a50;
+    }
+    section.projects .card .card-img-overlay{
+        background: rgba(249, 185, 96, 0.555);
+        transition: .2s ease-out all;
+    }
+    section.projects .card:hover .card-img-overlay{
+        background: transparent;
+    }
+    section.projects .card:hover{
+        transform: scale(1.03) translatey(-10px);
+    }
+
+    section.projects .card .card-title{
+        font-size: 80%;
+        text-transform: uppercase;
+    }
+
+    /* Testiomonials Section */
+
+    section.testimonials .author-name{
+font-weight: 600;
+margin-bottom: 0px;
+    }
+    .carousel{
+        height: 140px !important;
+    }
+
+.youtube-tagline{
+    font-size: 150%;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-shadow: none;
+}    
