@@ -1,8 +1,8 @@
 {
   "name": "Mukesh Joshi",
   "short_name": "Mukesh Joshi",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#B0193F",
+  "background_color": "#1D1B2B",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
