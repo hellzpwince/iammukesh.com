@@ -173,3 +173,27 @@ margin-bottom: 0px;
     font-weight: 300;
     text-shadow: none;
 }    
+.footer-credit::before{
+    content: ' ';
+    display: block;
+    margin-bottom: 20px;
+    border:2px dashed #15131F;
+}
+.footer-credit p{
+margin-bottom: 5px;
+margin-top: 5px;
+font-family: 'Fjalla One', sans-serif;
+}
+.footer-credit p.credit-item-1{
+    color:rgb(121, 121, 122);
+    margin-bottom: 10px;
+}
+.footer-credit p.credit-item-2{
+    color:#B0193F;
+    margin-bottom: 10px;
+}
+.footer-credit p span{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+

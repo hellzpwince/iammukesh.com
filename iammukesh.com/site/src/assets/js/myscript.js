@@ -1,5 +1,8 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
+    $('.preloader-bg-wrapper')
+		.delay(1700)
+		.fadeOut();
     $('.carousel').carousel({
         fullWidth: true,
         indicators: true
@@ -13,8 +16,4 @@ $(document).ready(function () {
         startSpeed: 100,
         loop: true,
     });
-    $('.preloader-bg-wrapper')
-		.delay(1700)
-		.fadeOut();
-
 });
